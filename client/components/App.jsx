@@ -1,9 +1,16 @@
 import React from 'react'
+import Board from './Board'
 
 const App = () => {
   return (
-    <h1>Towers</h1>
+    <Board /> 
+    
   )
-}
 
+  const Play = () => {
+    return (
+      Board
+    )
+  }
+}
 export default App
