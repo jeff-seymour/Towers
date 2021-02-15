@@ -1,0 +1,12 @@
+.tile{
+  display:inline-block
+}
+
+.tile{
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  height: 50px;
+  width: 50px;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import tiles from '../boardTiles'
 
 function Tile (props) {
   return (
@@ -8,60 +9,16 @@ function Tile (props) {
   )
 }
 
+// const getNewStyle = () => {
+//   return{
+//     width: 100,
+//     height: 100,
+  
+//   }
+// }
+
+// const boardStatus = () => {
+//   if tiles.board = false 
+// }
+
 export default Tile
-
-
-/*
-
-  [
-    [
-      {}
-      {},
-      {},
-
-    ],
-    [
-      {},
-      {},
-      {},
-    ],
-    [
-      {},
-      {},
-      {},
-    ]
-  ]
-
-*/
-
-/*
-
-arr.find(tile => tile.col === 0 && tile.row === 1)
-
-  [
-    
-      {
-        col: 0
-        row: 0
-      }
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-    
-  ]
-
-*/
-
-/*
-
-map({ col:0, row: 1 })
-
-[0, 0] ----> {}
-{col:0, row:1} ----> {}
-
-*/
