@@ -1,4 +1,5 @@
 import React from 'react'
+import tiles from '../boardTiles'
 
 function Tile (props) {
   return (
@@ -7,5 +8,17 @@ function Tile (props) {
     </div>
   )
 }
+
+// const getNewStyle = () => {
+//   return{
+//     width: 100,
+//     height: 100,
+  
+//   }
+// }
+
+// const boardStatus = () => {
+//   if tiles.board = false 
+// }
 
 export default Tile
