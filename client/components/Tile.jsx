@@ -2,43 +2,45 @@ import React from 'react'
 import tiles from '../boardTiles'
 
 function Tile (props) {
-  // console.log(props)
+  console.log(props)
   
   function colorChange(){
-  if(props.board == false ) {
+  if(props.board == false && props.tower == false ) {
     return(
-        <div className='tile'style={{'background-color': 'grey'}}> Tile
-          {props.Board}
+        <div className='tile'style={{'backgroundColor': 'grey'}}> 
+        Off Board
+          {/* {props.Board} */}
         </div>
-  
+        
+    )}
+    else if(props.board == false && props.tower == true) {
+      return(
+          <div className='tile'style={{'backgroundColor': 'yellow'}}> towerfalse
+            {/* {props.tower} */}
+          </div>
+      )}
+
+  else if (props.board == true){
+    return(
+      <div className='tile'style={{'backgroundColor': 'green' }}>
+        Game board
+        {/* {props.board} */}
+      </div>
     )
-  }
-  }
+  }}
+    
+  
+    // console.log(props.tower == true)
+  // console.log(props)
+  
+
 
   return ( 
     <>
     {colorChange()}
+ 
     </>
-    // <div className={props.board ? 'greenTile' : 'blueTile'}'> Tile
-
-    // <div className='tile'> Tile
-    //   {props.board}
-
-    // </div>
   )
 }
-
-
-// const getNewStyle = () => {
-//   return{
-//     width: 100,
-//     height: 100,
-  
-//   }
-// }
-
-// const boardStatus = () => {
-//   if tiles.board = false 
-// }
 
 export default Tile

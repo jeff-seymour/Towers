@@ -11,8 +11,11 @@ function Board (props) {
           row.map (tile => {
             console.log(tile)
             return <Tile
-              key={tile.id}
+              id={tile.id}
               board={tile.Board}
+              tower={tile.tower}
+
+              
 
               // info={tile.info}
               // value={tile.value}
