@@ -9,8 +9,14 @@ function Board (props) {
       return  <div>
         { 
           row.map (tile => {
+            console.log(tile)
             return <Tile
-              key={tile.id}
+              id={tile.id}
+              board={tile.Board}
+              tower={tile.tower}
+
+              
+
               // info={tile.info}
               // value={tile.value}
               // isVisible={tile.isVisible} 
@@ -25,3 +31,4 @@ function boardStatus (){
 }
 
 export default Board
+

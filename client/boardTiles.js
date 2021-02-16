@@ -1,73 +1,80 @@
 const tiles = [
+  //row 1
   [
-    { id: 1, Board: false},
-    { id: 2, Board: false},
-    { id: 3, Board: false},
-    { id: 4, Board: false},
-    { id: 5, Board: false},
-    { id: 6, Board: false},
-    { id: 7, Board: false},
+    { id: 0, Board: false, tower: true},
+    { id: 1, Board: false, tower: false},
+    { id: 2, Board: false, tower: false},
+    { id: 3, Board: false, tower: false},
+    { id: 4, Board: false, tower: false},
+    { id: 5, Board: false, tower: false},
+    { id: 6, Board: false, tower: false},
   
   ],
+  //row 2
   [
     
-    { id: 8, Board:false},
-    { id: 9, Board:true},
-    { id: 10, Board:true},
-    { id: 11, Board:true},
-    { id: 12, Board:true},
-    { id: 13, Board:true},
-    { id: 14, Board:false},
+    { id: 7, Board:false, tower: false},
+    { id: 8, Board:true, tower: false},
+    { id: 9, Board:true, tower: false},
+    { id: 10, Board:true, tower: false},
+    { id: 11, Board:true, tower: false},
+    { id: 12, Board:true, tower: false},
+    { id: 13, Board:false, tower: false},
   ],
+  //row 3
   [
 
-    { id: 15, Board:false},
-    { id: 16, Board:true},
-    { id: 17, Board:true},
-    { id: 18, Board:true},
-    { id: 19, Board:true},
-    { id: 20, Board:true},
-    { id: 21, Board:false},
+    { id: 14, Board:false, tower: false},
+    { id: 15, Board:true, tower: false},
+    { id: 16, Board:true, tower: false},
+    { id: 17, Board:true, tower: false},
+    { id: 18, Board:true, tower: false},
+    { id: 19, Board:true, tower: false},
+    { id: 20, Board:false, tower: false},
   ],
+  //row 4
   [
 
-    { id: 22, Board:false},
-    { id: 23, Board:true},
-    { id: 24, Board:true},
-    { id: 25, Board:true},
-    { id: 26, Board:true},
-    { id: 27, Board:true},
-    { id: 28, Board:false},
+    { id: 21, Board:false, tower: false},
+    { id: 22, Board:true, tower: false},
+    { id: 23, Board:true, tower: false},
+    { id: 24, Board:true, tower: false},
+    { id: 25, Board:true, tower: false},
+    { id: 26, Board:true, tower: false},
+    { id: 27, Board:false, tower: false},
   ],
+  //row 5
   [
 
-    { id: 29, Board:false},
-    { id: 30, Board:true},
-    { id: 31, Board:true},
-    { id: 32, Board:true},
-    { id: 33, Board:true},
-    { id: 34, Board:true},
-    { id: 35, Board:false},
+    { id: 28, Board:false, tower: false},
+    { id: 29, Board:true, tower: false},
+    { id: 30, Board:true, tower: false},
+    { id: 31, Board:true, tower: false},
+    { id: 32, Board:true, tower: false},
+    { id: 33, Board:true, tower: false},
+    { id: 34, Board:false, tower: false},
   ],
+  //row 6
   [
 
-    { id: 36, Board:false},
-    { id: 37, Board:true},
-    { id: 38, Board:true},
-    { id: 39, Board:true},
-    { id: 40, Board:true},
-    { id: 41, Board:true},
-    { id: 42, Board:false},
+    { id: 35, Board:false, tower: false},
+    { id: 36, Board:true, tower: false},
+    { id: 37, Board:true, tower: false},
+    { id: 38, Board:true, tower: false},
+    { id: 39, Board:true, tower: false},
+    { id: 40, Board:true, tower: false},
+    { id: 41, Board:false, tower: false},
   ],
+  //row 7
   [
 
-    { id: 43, Board:false},
-    { id: 44, Board:false},
-    { id: 45, Board:false},
-    { id: 46, Board:false},
-    { id: 47, Board:false},
-    { id: 48, Board:false},
-    { id: 49, Board:false}
+    { id: 42, Board:false, tower: false},
+    { id: 43, Board:false, tower: false},
+    { id: 44, Board:false, tower: false},
+    { id: 45, Board:false, tower: false},
+    { id: 46, Board:false, tower: false},
+    { id: 47, Board:false, tower: false},
+    { id: 48, Board:false, tower: false}
   ]
 ]
 
