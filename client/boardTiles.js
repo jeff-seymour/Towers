@@ -1,10 +1,10 @@
 const tiles = [
   //row 1
   [
-    { id: 0, Board: false, tower: true},
+    { id: 0, Board: false, tower: false},
     { id: 1, Board: false, tower: false},
     { id: 2, Board: false, tower: false},
-    { id: 3, Board: false, tower: false},
+    { id: 3, Board: false, tower: true},
     { id: 4, Board: false, tower: false},
     { id: 5, Board: false, tower: false},
     { id: 6, Board: false, tower: false},
@@ -35,13 +35,13 @@ const tiles = [
   //row 4
   [
 
-    { id: 21, Board:false, tower: false},
+    { id: 21, Board:false, tower: true},
     { id: 22, Board:true, tower: false},
     { id: 23, Board:true, tower: false},
     { id: 24, Board:true, tower: false},
     { id: 25, Board:true, tower: false},
     { id: 26, Board:true, tower: false},
-    { id: 27, Board:false, tower: false},
+    { id: 27, Board:false, tower: true},
   ],
   //row 5
   [
@@ -71,7 +71,7 @@ const tiles = [
     { id: 42, Board:false, tower: false},
     { id: 43, Board:false, tower: false},
     { id: 44, Board:false, tower: false},
-    { id: 45, Board:false, tower: false},
+    { id: 45, Board:false, tower: true},
     { id: 46, Board:false, tower: false},
     { id: 47, Board:false, tower: false},
     { id: 48, Board:false, tower: false}
