@@ -2,12 +2,32 @@ import React from 'react'
 import tiles from '../boardTiles'
 
 function Tile (props) {
-  return (
-    <div className='tile'> Tile
-      {props.value}
-    </div>
+  // console.log(props)
+  
+  function colorChange(){
+  if(props.board == false ) {
+    return(
+        <div className='tile'style={{'background-color': 'grey'}}> Tile
+          {props.Board}
+        </div>
+  
+    )
+  }
+  }
+
+  return ( 
+    <>
+    {colorChange()}
+    </>
+    // <div className={props.board ? 'greenTile' : 'blueTile'}'> Tile
+
+    // <div className='tile'> Tile
+    //   {props.board}
+
+    // </div>
   )
 }
+
 
 // const getNewStyle = () => {
 //   return{
