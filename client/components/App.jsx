@@ -5,12 +5,6 @@ const App = () => {
   return (
     <Board /> 
     
-  )
+  )}
 
-  const Play = () => {
-    return (
-      Board
-    )
-  }
-}
 export default App

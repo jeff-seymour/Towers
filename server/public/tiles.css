@@ -1,12 +1,25 @@
 .tile{
-  display:inline-block
-}
-
-.tile{
+  display:inline-block;
   background-color: lightblue;
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  height: 50px;
-  width: 50px;
+  height: 125px;
+  width: 125px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.boardTile{
+  display:inline-block;
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 125px;
+  width: 125px;
+  text-align: center;
 }
