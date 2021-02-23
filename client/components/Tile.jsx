@@ -8,7 +8,7 @@ function Tile (props) {
   function colorChange(){
   if (props.board == false && props.tower == false ) {
     return(
-        <div className='tile'style={{'backgroundColor': 'grey'}}> 
+        <div className='tile' style={{'backgroundImage': "url('/images/stars.jpg')"}}> 
         Out of Bounds
           {props.Board}
         </div>
@@ -17,8 +17,8 @@ function Tile (props) {
 
     else  if (props.board == false && props.tower == true ) {
       return(
-          <div className='tile'style={{'backgroundColor': 'yellow'}}> 
-          Tower  
+          <div className='tile'style={{'backgroundImage': "url('/images/tower.jpeg')"}}> 
+            
             {props.Board}
           </div>
           
